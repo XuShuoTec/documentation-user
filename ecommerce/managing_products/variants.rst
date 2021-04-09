@@ -1,6 +1,6 @@
-==============================
-How to manage product variants
-==============================
+=======================
+Manage product variants
+=======================
 
 Product variants are used to offer variations of the same product to your
 customers on the products page. For example, the customer chooses a T-shirt
@@ -11,11 +11,10 @@ available options.
 .. image:: ./media/variants.png
    :align: center
 
-How to create attributes & variants
-===================================
+Create attributes & variants
+============================
 
-* Turn on *Products can have several attributes, defining variants (Example:
-  size, color,...)* in :menuselection:`Sales --> Settings`.
+* Turn on *Variants* in :menuselection:`Sales --> Settings`.
 
 * Select a product from the Products list, go to the *Variants* tab.
 
@@ -23,19 +22,16 @@ How to create attributes & variants
   drop-down menu or color buttons. You get several variants as soon as there are
   2 values for 1 attribute.
 
-.. image:: ./media/variants_setup.png
+.. image:: ./media/variants-values.png
    :align: center
 
-How to edit variants
-====================
+Edit variants
+=============
 
 See all the variants from the product template detail form.
 
-.. image:: ./media/variants_button.png
+.. image:: ./media/variants-smart-button.png
    :align: center
-   :scale: 50
-   :width: 50
-   :height: 50
 
 You can edit following data:
 
@@ -54,13 +50,13 @@ You can edit following data:
    See and edit all the variants from :menuselection:`Sales --> Sales --> Product Variants`
    as well. This might be quicker if you manage lots of variants.
 
-How to set specific prices per variant
-======================================
+Set specific prices per variant
+===============================
 
-You can also set a specific public price per variant by clicking *Variant Prices*
+You can also set a specific public price per variant by clicking *Configure Variants*
 in the product detail form (action in top-left corner).
 
-.. image:: ./media/variant_prices_button.png
+.. image:: ./media/variants-configure-variants.png
    :align: center
 
 The Price Extra is added to the product price whenever the corresponding attribute
@@ -76,17 +72,20 @@ value is selected.
    Pricelist formulas let you set advanced price computation methods for product variants.
    See :doc:`../maximizing_revenue/pricing`.
 
-How to disable/archive variants
-===============================
+Disable/archive variants
+========================
 
 You can disable/archive specific variants so that they are no longer available in quotes &
 website (not existing in your stock, deprecated, etc.). Simply uncheck *Active* in their detail form.
 
-.. image:: ./media/variant_active.png
+.. image:: ./media/variants-active.png
    :align: center
 
 To retrieve such archived items, hit *Archived* on searching the variants list. You can
 reactivate them the same way.
 
-.. image:: ./media/variant_archive.png
+.. image:: ./media/variants-archive.png
+   :align: center
+
+.. image:: ./media/variants-archive-search.png
    :align: center
